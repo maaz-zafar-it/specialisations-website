@@ -1,0 +1,150 @@
+export const COMPANY = {
+  name: "S.S Enterprise",
+  slogan: "Precision. Purity. Partnership.",
+  tagline: "Trusted Pharma Raw Materials Importer & Lab Chemical Supplier",
+  est: "2017",
+  phone: "+92-302-9686650",
+  email: "info@ssenterprisepk.com",
+  address: "Karachi, Pakistan",
+  whatsapp: "923029686650",
+};
+
+export const STATS = [
+  { value: "8+",   label: "Years Active" },
+  { value: "100+", label: "Products" },
+  { value: "50+",  label: "Clients Served" },
+  { value: "3",    label: "Core Specialisations" },
+];
+
+export const SERVICES = [
+  {
+    id: "pharma",
+    icon: "🧬",
+    iconBg: "from-blue-900/60 to-navy-800",
+    title: "Pharma & Cosmetics Raw Materials",
+    subtitle: "Excipients & Active Ingredients",
+    description:
+      "Premium pharmaceutical and cosmetics-grade raw materials and excipients sourced from globally certified manufacturers. We ensure each batch meets BP, USP, and EP standards.",
+    products: [
+      "Microcrystalline Cellulose (MCC)",
+      "Lactose Monohydrate",
+      "Magnesium Stearate",
+      "Hydroxypropyl Methylcellulose (HPMC)",
+      "Povidone (PVP)",
+      "Croscarmellose Sodium",
+      "Talc (Pharma Grade)",
+      "Silicon Dioxide",
+      "Stearic Acid",
+      "Sodium Starch Glycolate",
+      "Titanium Dioxide",
+      "Gelatin Capsules",
+      "Carbomer",
+      "Cetyl Alcohol",
+      "Glycerin (USP Grade)",
+      "Propylene Glycol",
+      "Isopropyl Myristate",
+      "Phenoxyethanol",
+      "Dimethicone",
+      "Zinc Oxide",
+    ],
+  },
+  {
+    id: "lab",
+    icon: "⚗️",
+    iconBg: "from-teal-900/60 to-navy-800",
+    title: "Lab Chemicals",
+    subtitle: "AR, LR & HPLC Grade",
+    description:
+      "Analytical Reagent (AR), Laboratory Reagent (LR), and HPLC-grade chemicals for research labs, quality control departments, and academic institutions across Pakistan.",
+    products: [
+      "Acetonitrile (HPLC Grade)",
+      "Methanol (HPLC / LR)",
+      "Chloroform (AR Grade)",
+      "Ethanol (Absolute)",
+      "Hydrochloric Acid",
+      "Sulfuric Acid",
+      "Sodium Hydroxide",
+      "Potassium Permanganate",
+      "Ammonium Acetate",
+      "Orthophosphoric Acid",
+      "Acetone (LR Grade)",
+      "Diethyl Ether",
+      "Toluene",
+      "Hexane (HPLC)",
+      "Glacial Acetic Acid",
+      "Sodium Chloride",
+      "Buffer Solutions (pH 4, 7, 9)",
+      "Hydrogen Peroxide",
+      "Isopropanol (IPA)",
+      "Triethylamine",
+    ],
+  },
+  {
+    id: "glassware",
+    icon: "🔬",
+    iconBg: "from-indigo-900/60 to-navy-800",
+    title: "Glassware & HPLC Columns",
+    subtitle: "PYREX, Waters & Agilent",
+    description:
+      "Complete range of laboratory glassware (PYREX certified) and HPLC columns from industry-leading brands — Waters and Agilent — for high-precision chromatographic analysis.",
+    products: [
+      "PYREX Beakers (50ml – 5L)",
+      "Erlenmeyer Flasks",
+      "Volumetric Flasks (Class A)",
+      "Burettes (50ml)",
+      "Pipettes & Pipetting aids",
+      "Round Bottom Flasks",
+      "Separatory Funnels",
+      "Condensers (Liebig)",
+      "Petri Dishes",
+      "Crucibles & Evaporating Dishes",
+      "Waters C18 HPLC Columns",
+      "Waters C8 HPLC Columns",
+      "Agilent Zorbax C18",
+      "Agilent Eclipse XDB",
+      "Guard Columns (Universal)",
+      "HPLC Inline Filters",
+      "Column Heaters & Accessories",
+      "Syringe Filters (0.22µm, 0.45µm)",
+      "HPLC Vials & Caps",
+      "Graduated Cylinders",
+    ],
+  },
+];
+
+export const WHY_US = [
+  {
+    title: "Certified Quality",
+    description: "All products meet BP, USP, and EP international standards with full CoA documentation.",
+    icon: "✓",
+  },
+  {
+    title: "Global Brands",
+    description: "Authorised distributor for Merck, Sigma-Aldrich, PYREX, Waters, and Agilent in Pakistan.",
+    icon: "◈",
+  },
+  {
+    title: "Fast Delivery",
+    description: "Same-day dispatch within Karachi. Pan-Pakistan delivery within 48–72 hours.",
+    icon: "→",
+  },
+  {
+    title: "Expert Support",
+    description: "Technical guidance from our specialists to help you choose the right product for your application.",
+    icon: "◎",
+  },
+];
+
+export const CLIENTS = [
+  "Searle Pharma",
+  "Woodwards",
+  "Le Mendoza",
+  "Palpax Pharma",
+  "Hudson Pharma",
+  "Oncogene Pharma",
+  "Platinum Pharmaceutical",
+  "Winthrox",
+  "Dream World Resort",
+];
+
+export const BRANDS = ["Merck", "Sigma-Aldrich", "PYREX", "Waters", "Agilent"];
