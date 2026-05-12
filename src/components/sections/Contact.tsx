@@ -10,19 +10,28 @@ export default function Contact() {
     setForm({ ...form, [e.target.name]: e.target.value });
 
 const submit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    try {
-      const res = await fetch("https://formspree.io/f/923687292", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
-      });
-      if (res.ok) setSent(true);
-      else alert("Something went wrong. Please try again.");
-    } catch {
-      alert("Network error. Please try again.");
-    }
-  };
+  e.preventDefault();
+  try {
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        access_key: "c631b176-c050-4c93-a094-bc862c5d85c3",
+        name: form.name,
+        email: form.email,
+        company: form.company,
+        phone: form.phone,
+        service: form.service,
+        message: form.message,
+      }),
+    });
+    const data = await res.json();
+    if (data.success) setSent(true);
+    else alert("Something went wrong. Please try again.");
+  } catch {
+    alert("Network error. Please try again.");
+  }
+};
 
   return (
     <section id="contact" className="py-28 bg-white">
