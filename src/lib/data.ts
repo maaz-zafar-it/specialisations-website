@@ -136,15 +136,15 @@ export const WHY_US = [
 ];
 
 export const CLIENTS = [
-  "Searle Pharma",
-  "Woodwards",
-  "Le Mendoza",
-  "Palpax Pharma",
-  "Hudson Pharma",
-  "Oncogene Pharma",
-  "Platinum Pharmaceutical",
-  "Winthrox",
-  "Dream World Resort",
+  "The Searle Company Limited",
+  "W. Woodward Pakistan (Pvt.) Ltd.",
+  "Le Mendoza Pharmaceutical (Pvt.) Ltd.",
+  "Palpex Pharmaceuticals (Pvt.) Ltd.",
+  "Hudson Pharma (Pvt.) Limited",
+  "Oncogen Pharma (Pvt.) Ltd.",
+  "Platinum Pharmaceuticals (Pvt.) Ltd.",
+  "Winthrox Laboratories (Pvt.) Ltd.",
+  "Dreamworld Resort, Hotel & Golf Course",
 ];
 
 export const BRANDS = ["Merck", "Sigma-Aldrich", "PYREX", "Waters", "Agilent"];
