@@ -3,15 +3,15 @@
 import Image from "next/image";
 
 const clients = [
-  { name: "Searle Pharma",            logo: "/images/clients/searle-pharma.png" },
-  { name: "Woodward's",               logo: "/images/clients/woodwards.jpg" },
-  { name: "Le Mendoza",               logo: "/images/clients/le-mendoza.jpg" },
-  { name: "Palpax Pharma",            logo: "/images/clients/palpax-pharma.webp" },
-  { name: "Hudson Pharma",            logo: "/images/clients/hudson-pharma.png" },
-  { name: "Oncogene Pharma",          logo: "/images/clients/oncogene-pharma.png" },
-  { name: "Platinum Pharmaceutical",  logo: "/images/clients/platinum-pharmaceutical.png" },
-  { name: "Winthrox",                 logo: "/images/clients/winthrox.png" },
-  { name: "Dream World Resort",       logo: "/images/clients/dream-world-resort.png" },
+  { name: "The Searle Company Limited",           logo: "/images/clients/searle-pharma.png" },
+  { name: "W. Woodward Pakistan (Pvt.) Ltd.",     logo: "/images/clients/woodwards.jpg" },
+  { name: "Le Mendoza Pharmaceutical (Pvt.) Ltd.", logo: "/images/clients/le-mendoza.jpg" },
+  { name: "Palpex Pharmaceuticals (Pvt.) Ltd.",   logo: "/images/clients/palpax-pharma.webp" },
+  { name: "Hudson Pharma (Pvt.) Limited",         logo: "/images/clients/hudson-pharma.png" },
+  { name: "Oncogen Pharma (Pvt.) Ltd.",           logo: "/images/clients/oncogene-pharma.png" },
+  { name: "Platinum Pharmaceuticals (Pvt.) Ltd.", logo: "/images/clients/platinum-pharmaceutical.png" },
+  { name: "Winthrox Laboratories (Pvt.) Ltd.",    logo: "/images/clients/winthrox.png" },
+  { name: "Dreamworld Resort, Hotel & Golf Course", logo: "/images/clients/dream-world-resort.png" },
 ];
 
 export default function Clients() {
