@@ -120,7 +120,7 @@ export const WHY_US = [
   },
   {
     title: "Global Brands",
-    description: "Authorised distributor for Merck, Sigma-Aldrich, PYREX, Waters, and Agilent in Pakistan.",
+    description: "Supplying products from globally trusted brands including Merck, Sigma-Aldrich, PYREX, Waters, and Agilent across Pakistan.",
     icon: "◈",
   },
   {

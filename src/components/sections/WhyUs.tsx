@@ -44,6 +44,11 @@ export default function WhyUs() {
                   </div>
                   <h3 className="text-[#0a1628] font-semibold mb-2">{item.title}</h3>
                   <p className="text-[#4a5568] text-sm leading-relaxed">{item.description}</p>
+                    {item.title === "Global Brands" && (
+                      <p className="text-[#94a3b8] text-xs mt-2 italic">
+                        * Products sourced through authorised channels
+                      </p>
+                    )}
                 </div>
               );
             })}
