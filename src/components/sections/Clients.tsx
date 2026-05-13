@@ -42,7 +42,7 @@ export default function Clients() {
                   src={client.logo}
                   alt={`${client.name} logo`}
                   fill
-                  className="object-contain filter grayscale group-hover:grayscale-0 transition-all duration-300"
+                  className="object-contain transition-all duration-300"
                   sizes="(max-width: 640px) 45vw, (max-width: 768px) 30vw, 18vw"
                 />
               </div>
