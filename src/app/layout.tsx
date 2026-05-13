@@ -13,6 +13,11 @@ export const metadata: Metadata = {
     "cosmetics raw material Pakistan",
     "glassware supplier Karachi",
   ],
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon-16x16.png",
+    apple: "/apple-touch-icon.png",
+  },
   openGraph: {
     title: "S.S Enterprise — Precision. Purity. Partnership.",
     description:
