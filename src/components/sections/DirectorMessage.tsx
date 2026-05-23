@@ -20,7 +20,7 @@ export default function DirectorMessage() {
                 <Image src="/images/logo.png" alt="S.S Enterprise" fill className="object-contain" />
               </div>
               <div>
-                <p className="text-[#0a1628] font-semibold text-sm">Sales Executive</p>
+                <p className="text-[#0a1628] font-semibold text-sm">Our Vision</p>
                 <p className="text-xs tracking-widest uppercase mt-1 text-[#0a75fa]">{COMPANY.name}</p>
               </div>
             </div>
@@ -33,7 +33,7 @@ export default function DirectorMessage() {
               </p>
               <p className="text-[#4a5568] text-lg leading-relaxed">
                 Whether you are scaling a pharmaceutical formulation, running critical lab analyses, or
-                building a cosmetics line — we are here to make your procurement seamless, reliable,
+                building a cosmetics line, we are here to make your procurement seamless, reliable,
                 and built on trust.
               </p>
             </div>
