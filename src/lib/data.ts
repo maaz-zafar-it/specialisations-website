@@ -136,7 +136,7 @@ export const WHY_US = [
 ];
 
 export const CLIENTS = [
-  "The Searle Company Limited",
+  "High-Q Pharmaceutical",
   "W. Woodward Pakistan (Pvt.) Ltd.",
   "Le Mendoza Pharmaceutical (Pvt.) Ltd.",
   "Palpex Pharmaceuticals (Pvt.) Ltd.",
