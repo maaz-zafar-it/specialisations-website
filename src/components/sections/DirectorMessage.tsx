@@ -20,7 +20,7 @@ export default function DirectorMessage() {
                 <Image src="/images/logo.png" alt="S.S Enterprise" fill className="object-contain" />
               </div>
               <div>
-                <p className="text-[#f41d27] font-bold text-xl">Our Vision</p>
+                <p className="text-[#0a75fa] font-bold text-xl">Our Vision</p>
                 <p className="text-xs tracking-widest uppercase mt-1 text-[#0a75fa]">{COMPANY.name}</p>
               </div>
             </div>
