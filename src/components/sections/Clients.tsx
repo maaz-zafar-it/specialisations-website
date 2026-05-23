@@ -3,7 +3,7 @@
 import Image from "next/image";
 
 const clients = [
-  { name: "High-Q Pharmaceutical", logo: "/images/clients/high-q-pharma.png" },
+  { name: "High-Q Pharmaceutical", logo: "/images/clients/high-q-pharmaceutical.png" },
   { name: "W. Woodward Pakistan (Pvt.) Ltd.",     logo: "/images/clients/woodwards.jpg" },
   { name: "Le Mendoza Pharmaceutical (Pvt.) Ltd.", logo: "/images/clients/le-mendoza.jpg" },
   { name: "Palpex Pharmaceuticals (Pvt.) Ltd.",   logo: "/images/clients/palpax-pharma.webp" },
